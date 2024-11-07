@@ -1,0 +1,25 @@
+Objetos:
+Objetos por constructor -> Funciones, y es "similar" a las clases en POO
+Objetos literales -> Agrupación de mínimo un par de datos (llave:valor) construido desde cero
+
+Selectores del DOM -> Es la forma en la que JavaScript define o entiende la manipulación de una etiqueta HTML
+    getElement -> Permite seleccionar elementos por id, por clase y por etiqueta
+    querySelector -> Permite seleccionar elementos por id, por clase y por etiqueta
+
+Eventos:
+    Usuario -> Toda acción que realiza un usuario sobre la aplicación (click, doble click, scroll, etc.)
+    Documento -> Toda acción que es desencadenada por un evento de usuario (todo lo que sucede por debajo del código)
+
+Para definir un evento, usamos el addEventListener, el cual necesita dos argumentos: evento y la acción
+
+getElementByTagName y/o querySelectorAll -> Ambos me retornan un listado de elementos "arreglo"
+
+
+
+Arreglos: Conjundo de datos almacenados en una misma variable
+    Tamaño -> Está definidio con la cantidad de elementos que contiene el arreglo
+    Posición -> Está definida por la cantidad de elementos - 1
+Un arrego el JavaScript puede almacenar cualquier tipo de información o dato: numero, textos, booleanod, funciones, objetos y arreglos
+
+Consulta: 
+Métodos de los arreglos: map, find, filter, some, forEach, push, pop, slice
