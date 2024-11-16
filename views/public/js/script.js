@@ -85,7 +85,7 @@ function validarFormulario(e) {
             if (e.target.value === document.getElementById('register-contrasena').value) {
                 document.getElementById("register-confirmar").classList.add("correcto");
                 document.getElementById("register-confirmar").classList.remove("incorrecto");
-                (e.target.value);
+                
                 console.log("correcto")
             } else {
                 document.getElementById("register-confirmar").classList.add("incorrecto");

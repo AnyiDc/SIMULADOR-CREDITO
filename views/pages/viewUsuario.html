@@ -18,7 +18,7 @@
             <label for="">Contraseña</label>
             <input name="login-contrasena" id="login-contrasena" type="text" />
         </div>
-        <button type="button">Iniciar Sesión</button>
+        <button id="btnLogin" type="button">Iniciar Sesión</button>
         <p id="btnFormLogin">¿No tiene cuenta?</p>
     </form>
 
@@ -26,12 +26,10 @@
         <div>
             <label for="">Nombre</label>
             <input name="register-nombre" id="register-nombre" type="text" />
-            <span id ="mensaje-nombre"></span>
         </div>
         <div>
             <label for="">Usuario</label>
             <input name="register-usuario" id="register-usuario" type="text" />
-            <span id ="mensaje-usuario"></span>
         </div>
         <div>
             <label for="">Correo</label>
@@ -45,11 +43,13 @@
             <label for="">Confirmar contraseña</label>
             <input name="register-confirmar" id="register-confirmar" type="text" />
         </div>
-        <button type="button">Registrarse</button>
+        <button id="btnRegistrar" type="button">Registrarse</button>
         <p id="btnFormRegistro">¿Ya tiene cuenta?</p>
     </form>
 
     <script type="module" src="/views/public/js/script.js"></script>
+    <script type="module" src="/views/public/js/scriptUsuario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
